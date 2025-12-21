@@ -1,89 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>EFT Suite — NFA Fingerprints</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFA Suite — NFA Fingerprints</title>
   <link rel="stylesheet" href="css/style.css" />
+  <!-- Preload hero image for performance -->
+  <link rel="preload" href="assets/shot-eft-generation.png" as="image">
 </head>
+
 <body>
 
-<header class="hero">
-  <nav>
-    <div class="logo">EFT Suite</div>
-    <div class="nav-links">
-      <a href="#features">Features</a>
-      <a href="#mockups">Screens</a>
-      <a href="#contact">Contact</a>
+  <header class="global-nav">
+    <div class="nav-container">
+      <div class="logo">NFA Suite</div>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <div class="hero-content">
-    <h1>EFT Suite</h1>
-    <p class="subtitle">Create ATF-Compliant EFT Files & NFA Passport Photos</p>
-    <p class="tagline">
-      Secure, offline biometric tools for NFA applicants and FFLs.
-    </p>
-    <a class="cta" href="#">Download on the App Store</a>
-  </div>
-</header>
-
-<section class="section" id="features">
-  <h2>Built for NFA filing</h2>
-  <div class="features-grid">
-    <div class="feature"><h3>EFT Generation</h3><p>Scan FD-258 cards and generate ATF-ready .EFT files.</p></div>
-    <div class="feature"><h3>Passport Photos</h3><p>Create compliant 2x2 photos instantly.</p></div>
-    <div class="feature"><h3>On-Device Privacy</h3><p>No cloud uploads. Ever.</p></div>
-    <div class="feature"><h3>Shop Mode</h3><p>Client processing station for FFLs.</p></div>
-  </div>
-</section>
-
-<section class="section" id="mockups">
-  <h2>See it in action</h2>
-  <div class="mockup-rail">
-    <figure class="mockup-card">
-      <div class="iphone17pm">
-        <div class="dynamic-island"></div>
-        <img src="assets/shot-eft-generation.png" alt="EFT generation" />
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>NFA Suite</h1>
+        <p class="subtitle">NFA Fingerprints & Compliance. Simplified.</p>
+        <p class="tagline">
+          Create ATF-compliant .EFT files and passport photos directly on your iPhone.<br>
+          Secure, offline, and ready for eForms.
+        </p>
+        <div class="cta-container">
+          <a class="cta" href="#">Download on the App Store</a>
+        </div>
       </div>
-      <figcaption>
-        <div class="cap-title">EFT generation</div>
-        <div class="cap-sub">ATF-compliant .EFT files</div>
-      </figcaption>
-    </figure>
 
-    <figure class="mockup-card">
-      <div class="iphone17pm landscape">
-        <div class="dynamic-island"></div>
-        <img src="assets/shot-fd258-capture-landscape.png" alt="FD-258 capture" />
+      <div class="hero-image-container">
+        <figure class="iphone17pm hero-phone">
+          <div class="dynamic-island"></div>
+          <img src="assets/shot-eft-generation.png" alt="EFT Suite App Interface" />
+        </figure>
       </div>
-      <figcaption>
-        <div class="cap-title">Live FD-258 capture</div>
-        <div class="cap-sub">Landscape capture workflow</div>
-      </figcaption>
-    </figure>
+    </section>
 
-    <figure class="mockup-card">
-      <div class="iphone17pm">
-        <div class="dynamic-island"></div>
-        <img src="assets/shot-shop-mode.png" alt="Shop mode" />
+    <!-- Feature 1: EFT Generation -->
+    <section class="section feature-section" id="features">
+      <div class="feature-content">
+        <h2>Professional .EFT Files</h2>
+        <p class="feature-desc">Stop mailing fingerprint cards. Scan a standard FD-258 card and instantly generate
+          ATF-compliant .EFT files ready for eForms upload.</p>
+        <ul class="feature-list">
+          <li>FBI EBTS Standard Compliant</li>
+          <li>Intelligent Fingerprint Segmentation</li>
+          <li>Orientation Correction</li>
+        </ul>
       </div>
-      <figcaption>
-        <div class="cap-title">Shop mode</div>
-        <div class="cap-sub">FFL client processing</div>
-      </figcaption>
-    </figure>
-  </div>
-</section>
+      <div class="feature-visual">
+        <figure class="iphone17pm">
+          <div class="dynamic-island"></div>
+          <img src="assets/EFT-Generator.png" alt="EFT Generation Interface" />
+        </figure>
+      </div>
+    </section>
 
-<section class="section contact" id="contact">
-  <h2>Contact</h2>
-  <p><a href="mailto:support@nfasuite.com">support@nfasuite.com</a></p>
-</section>
+    <!-- Feature 2: Passport Photos (Alternating Layout) -->
+    <section class="section feature-section alt">
+      <div class="feature-content">
+        <h2>Perfect Passport Photos</h2>
+        <p class="feature-desc">Forget the pharmacy. Create professional 2x2" passport-style photos required for NFA
+          applications in seconds, right from your home.</p>
+        <ul class="feature-list">
+          <li>Smart Background Removal</li>
+          <li>Compliance Checks</li>
+          <li>Perfect Crop & Lighting</li>
+        </ul>
+      </div>
+      <div class="feature-visual">
+        <figure class="iphone17pm">
+          <div class="dynamic-island"></div>
+          <img src="assets/Doc-Generator.png" alt="Passport Photo Tool" />
+        </figure>
+      </div>
+    </section>
 
-<footer>
-  <p>© 2025 EFT Suite</p>
-</footer>
+    <!-- Feature 3: Inventory Management -->
+    <section class="section feature-section">
+      <div class="feature-content">
+        <h2>Complete NFA Management</h2>
+        <p class="feature-desc">Keep your entire NFA paperwork life organized in one secure place. Track items, trusts,
+          and responsible persons.</p>
+        <ul class="feature-list">
+          <li>Digital Inventory Tracking</li>
+          <li>Trust &amp; CLEO Profiles</li>
+          <li>Secure Data Storage</li>
+        </ul>
+      </div>
+      <div class="feature-visual">
+        <figure class="iphone17pm">
+          <div class="dynamic-island"></div>
+          <img src="assets/Inventory-Default.png" alt="Inventory Management" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Feature 4: Shop Mode (Alternating Layout) -->
+    <section class="section feature-section alt">
+      <div class="feature-content">
+        <h2>Shop Mode for Dealers</h2>
+        <p class="feature-desc">Are you an FFL? Enable Shop Mode to turn your iPhone into a client processing station.
+        </p>
+        <ul class="feature-list">
+          <li>Client Management</li>
+          <li>Instant AirDrop Delivery</li>
+          <li>Streamlined Workflow</li>
+        </ul>
+      </div>
+      <div class="feature-visual">
+        <figure class="iphone17pm">
+          <div class="dynamic-island"></div>
+          <img src="assets/shot-shop-mode.png" alt="Shop Mode Interface" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Privacy Emphasis -->
+    <section class="section privacy-section">
+      <div class="privacy-content">
+        <h2>Privacy First. Always.</h2>
+        <p>Your biometric data never leaves your device. All processing happens locally on Apple Silicon.</p>
+        <div class="privacy-badges">
+          <div class="badge">
+            <span class="icon">🔒</span>
+            <span>100% Offline Processing</span>
+          </div>
+          <div class="badge">
+            <span class="icon">☁️</span>
+            <span>No Cloud Uploads</span>
+          </div>
+          <div class="badge">
+            <span class="icon">🛡️</span>
+            <span>Secure Storage</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <h2>Get in Touch</h2>
+      <p>Need support or have questions? We're here to help.</p>
+      <a href="mailto:support@nfasuite.com" class="text-link">support@nfasuite.com</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 NFA Suite. All rights reserved.</p>
+      <nav>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:support@nfasuite.com">Support</a>
+      </nav>
+    </div>
+  </footer>
 
 </body>
+
 </html>
