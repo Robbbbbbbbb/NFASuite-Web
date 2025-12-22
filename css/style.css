@@ -29,7 +29,9 @@ body {
 }
 
 /* Typography */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   font-weight: 600;
   letter-spacing: -0.003em;
@@ -54,7 +56,8 @@ h3 {
 
 p {
   font-size: 19px;
-  color: var(--text-secondary); /* Apple uses softer grey for body often */
+  color: var(--text-secondary);
+  /* Apple uses softer grey for body often */
   margin-top: 0;
 }
 
@@ -76,7 +79,8 @@ a:hover {
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
-  border-bottom: 1px solid rgba(0,0,0,0.16); /* Very subtle bottom border */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  /* Very subtle bottom border */
 }
 
 .nav-container {
@@ -111,7 +115,8 @@ a:hover {
 
 /* Main Container */
 main {
-  overflow-x: hidden; /* Prevent horizontal scroll from some animations/images */
+  overflow-x: hidden;
+  /* Prevent horizontal scroll from some animations/images */
 }
 
 /* Hero Section */
@@ -150,7 +155,8 @@ main {
   padding: 12px 22px;
   background: var(--accent);
   color: #fff;
-  border-radius: 980px; /* Pill shape */
+  border-radius: 980px;
+  /* Pill shape */
   font-size: 17px;
   font-weight: 500;
   transition: background 0.3s;
@@ -174,7 +180,8 @@ main {
 /* Feature Sections */
 .section {
   padding: var(--section-spacing) 0;
-  border-bottom: 1px solid var(--border); /* Optional separator */
+  border-bottom: 1px solid var(--border);
+  /* Optional separator */
 }
 
 .section:last-child {
@@ -182,7 +189,8 @@ main {
 }
 
 /* Make privacy and contact sections simpler */
-.privacy-section, .contact {
+.privacy-section,
+.contact {
   background: var(--bg-secondary);
   border-bottom: none;
 }
@@ -234,7 +242,8 @@ main {
 }
 
 .feature-list li::before {
-  content: "•"; /* Or a checkmark */
+  content: "•";
+  /* Or a checkmark */
   color: var(--accent);
   position: absolute;
   left: 0;
@@ -326,7 +335,7 @@ footer {
   background: #000;
   border-radius: 48px;
   padding: 12px;
-  box-shadow: 
+  box-shadow:
     0 0 0 2px #333,
     0 0 0 3px #1a1a1a,
     0 20px 40px rgba(0, 0, 0, 0.4);
@@ -347,11 +356,26 @@ footer {
   top: 24px;
   left: 50%;
   transform: translateX(-50%);
-  width: 96px; /* Dynamic island size */
+  width: 96px;
+  /* Dynamic island size */
   height: 28px;
   background: #000;
   border-radius: 20px;
   z-index: 10;
+}
+
+.iphone17pm.landscape {
+  --frame-w: 700px;
+  aspect-ratio: 2868/1320;
+}
+
+.iphone17pm.landscape .dynamic-island {
+  top: 50%;
+  left: 24px;
+  right: auto;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 96px;
 }
 
 /* Privacy Page Specifics */
@@ -387,7 +411,8 @@ footer {
   border-bottom: 1px solid var(--border);
 }
 
-.page-privacy p, .page-privacy li {
+.page-privacy p,
+.page-privacy li {
   font-size: 17px;
   line-height: 1.6;
   margin-bottom: 16px;
@@ -440,7 +465,8 @@ summary::after {
   content: "+";
   position: absolute;
   right: 0;
-  top: 50%; /* Center vertically approx */
+  top: 50%;
+  /* Center vertically approx */
   transform: translateY(-50%);
   font-weight: 400;
   font-size: 24px;
@@ -484,33 +510,46 @@ details p {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-  h1 { font-size: 40px; }
-  h2 { font-size: 32px; }
-  
-  .hero-content { margin-bottom: 30px; }
-  
-  .feature-section, .feature-section.alt {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .hero-content {
+    margin-bottom: 30px;
+  }
+
+  .feature-section,
+  .feature-section.alt {
     flex-direction: column;
     text-align: center;
     gap: 40px;
     padding: 60px 20px;
   }
-  
+
   .feature-content {
-    order: 1; 
+    order: 1;
   }
-  
+
   .feature-visual {
     order: 2;
   }
-  
+
   .feature-list {
     display: inline-block;
     text-align: left;
   }
 
   .iphone17pm {
-    --frame-w: 260px; /* Scale down for mobile */
+    --frame-w: 260px;
+  }
+
+  .iphone17pm.landscape {
+    --frame-w: 100%;
+    max-width: 100%;
   }
 
   .nav-container {
@@ -518,7 +557,7 @@ details p {
     flex-direction: column;
     padding: 10px 20px;
   }
-  
+
   .nav-links {
     display: flex;
     flex-wrap: wrap;
