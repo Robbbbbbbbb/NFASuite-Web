@@ -393,6 +393,95 @@ footer {
   margin-bottom: 16px;
 }
 
+/* Cloud Section for EFT Suite */
+.cloud-section {
+  background: #fbfbfd;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.code-block {
+  background: #1d1d1f;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 14px;
+  text-align: left;
+  max-width: 600px;
+  margin: 30px auto;
+  overflow-x: auto;
+}
+
+/* Accordion (Details/Summary) */
+details {
+  border-bottom: 1px solid var(--border);
+  padding: 24px 0;
+}
+
+details:first-child {
+  border-top: 1px solid var(--border);
+}
+
+summary {
+  font-size: 19px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-right: 30px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 50%; /* Center vertically approx */
+  transform: translateY(-50%);
+  font-weight: 400;
+  font-size: 24px;
+  transition: transform 0.2s;
+}
+
+details[open] summary::after {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+details p {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-size: 17px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Page Headers */
+.page-header {
+  text-align: center;
+  padding: 80px 20px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-header h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.page-header p {
+  font-size: 21px;
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   h1 { font-size: 40px; }
@@ -408,7 +497,7 @@ footer {
   }
   
   .feature-content {
-    order: 1; /* Text first usually on mobile, or image first? Apple usually does Text first for context, then visual */
+    order: 1; 
   }
   
   .feature-visual {
@@ -425,10 +514,21 @@ footer {
   }
 
   .nav-container {
-    justify-content: center;
+    height: auto;
+    flex-direction: column;
+    padding: 10px 20px;
   }
   
   .nav-links {
-    display: none; /* Hide nav links on small mobile for simplicity, or hamburger if needed. Simple centered logo is safer for MVP */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-links a {
+    margin: 0;
   }
 }
