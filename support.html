@@ -32,37 +32,230 @@
         <div class="faq-container">
             <h2>Frequently Asked Questions</h2>
 
-            <details>
-                <summary>How do I take a compliant fingerprint?</summary>
-                <p>Ensure your camera lens is clean and you have good lighting. Place your finger on a neutral
-                    background. The app will guide you with haptic feedback when the focus and position are correct.</p>
-                <p><em>(Video walkthrough coming soon)</em></p>
-            </details>
+            <div class="faq-group">
+                <h3>General</h3>
+                <details>
+                    <summary>What is an EFT file?</summary>
+                    <p>An EFT (Electronic Fingerprint Transmission) file is a standard digital format created by the FBI
+                        for
+                        fingerprint data. NFA Suite allows you to create these files using your iPhone's camera, which
+                        you
+                        can then upload directly to the ATF eForms portal.</p>
+                </details>
 
-            <details>
-                <summary>What is an EFT file?</summary>
-                <p>An EFT (Electronic Fingerprint Transmission) file is a standard digital format created by the FBI for
-                    fingerprint data. NFA Suite allows you to create these files using your iPhone's camera, which you
-                    can then upload directly to the ATF eForms portal.</p>
-            </details>
+                <details>
+                    <summary>Is my biometric data secure?</summary>
+                    <p>Absolutely. NFA Suite processes all biometric data locally on your device using Apple's Neural
+                        Engine. We never upload your fingerprints to any cloud server. Your data stays yours.</p>
+                </details>
 
-            <details>
-                <summary>Is my biometric data secure?</summary>
-                <p>Absolutely. NFA Suite processes all biometric data locally on your device using Apple's Neural
-                    Engine. We never upload your fingerprints to any cloud server. Your data stays yours.</p>
-            </details>
+                <details>
+                    <summary>How do I enable Shop Mode?</summary>
+                    <p>Shop Mode is designed for FFLs. To enable it, go to Settings within the app and select "Shop
+                        Mode".
+                        You will need an active subscription to access these features.</p>
+                </details>
+            </div>
 
-            <details>
-                <summary>How do I enable Shop Mode?</summary>
-                <p>Shop Mode is designed for FFLs. To enable it, go to Settings within the app and select "Shop Mode".
-                    You will need an active subscription to access these features.</p>
-            </details>
+            <div class="faq-group">
+                <h3>EFTs</h3>
+                <details>
+                    <summary>How do I create a new personal EFT?</summary>
+                    <ol>
+                        <li>From the home screen of NFA Suite, tap <strong>EFTs</strong> &gt; <strong>Start New
+                                EFT</strong></li>
+                        <li>You can now choose one of three ways to capture your FD-258 card:
+                            <ul>
+                                <li><strong>Select photo:</strong> Import an existing photo or scan of your EFT</li>
+                                <li><strong>Select PDF:</strong> Import an existing PDF scan of your EFT</li>
+                                <li><strong>Take Photo:</strong> This will allow you to take a photo of your FD258 and
+                                    line up the prints using a built-in grid.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Crop and Rotate:</strong> You can now adjust the rotation and brightness/contrast of
+                            your prints. Aim to get as much white space as possible (turn up the brightness) and
+                            contrast without making the prints appear blotchy</li>
+                        <li><strong>Segment prints:</strong> Drag the box over the corresponding finger in each print.
+                            Rolled prints are preferred, but flat prints will be accepted.</li>
+                        <li><strong>Demographics:</strong> You can now either import your user details from an existing
+                            user profile or enter the details manually.
+                            <br>To import, click “Load From User Profile”. This will load all of your existing users
+                            already created into the Demographics section. Please note that if a user already has an EFT
+                            attached to their profile, you will not be able to select that user until you remove the EFT
+                            from the profile (User &gt; Select the user &gt; EFT &gt; Remove)
+                        </li>
+                        <li><strong>Export EFT:</strong> Once everything is filled out and reviewed, you can save and
+                            export the EFT.</li>
+                    </ol>
+                    <p><em>Note: This function does not currently support annotating missing fingers, however, you can
+                            place the box on a field where the finger is missing even if it is blank.</em></p>
+                </details>
 
-            <details>
-                <summary>Can I edit an existing EFT file?</summary>
-                <p>Yes, NFA Suite includes a powerful EFT Editor. You can import existing .EFT files to view their
-                    contents, update demographic data, or re-export them.</p>
-            </details>
+                <details>
+                    <summary>How do I view an existing EFT?</summary>
+                    <ol>
+                        <li>From the home screen of NFA Suite, tap <strong>EFTs</strong> &gt; <strong>View Existing
+                                EFT</strong></li>
+                        <li>Click <strong>Open EFT File</strong> (Center) or <strong>Open File</strong> (Top Right)</li>
+                        <li>Select an EFT file</li>
+                    </ol>
+                </details>
+
+                <details>
+                    <summary>How do I edit an EFT file?</summary>
+                    <ol>
+                        <li>From the home screen of NFA Suite, tap <strong>EFTs</strong> &gt; <strong>Edit Existing
+                                EFT</strong></li>
+                        <li>Select the EFT and It will open the next view showing the details in the file</li>
+                        <li>Edit any field</li>
+                        <li>Export the EFT file</li>
+                    </ol>
+                    <p><em>Note: This function does not currently support adding, removing, or replacing fingers.</em>
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Can I view an EFT not created by NFA Suite?</summary>
+                    <p>Yes! Any EBTS-compliant EFT file can be viewed.</p>
+                </details>
+
+                <details>
+                    <summary>How do I take a compliant fingerprint?</summary>
+                    <p>Ensure your camera lens is clean and you have good lighting. Place your finger on a neutral
+                        background. The app will guide you with haptic feedback when the focus and position are correct.
+                    </p>
+                    <p><em>(Video walkthrough coming soon)</em></p>
+                </details>
+            </div>
+
+            <div class="faq-group">
+                <h3>Inventory</h3>
+
+                <details>
+                    <summary>How do I add a new firearm?</summary>
+                    <ul>
+                        <li>Tap <strong>Inventory</strong> &gt; <strong>+</strong> (add)</li>
+                        <li>Fill out the applicable details, add a photo, and add new Manufacturers or Calibers from
+                            this section</li>
+                        <li>Be sure to add your stamp in this section if already approved</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>How do I remove a Manufacturer or Caliber?</summary>
+                    <ul>
+                        <li>From the Home Screen, tap the <strong>Gear icon</strong> in the top right corner to enter
+                            Settings</li>
+                        <li>Scroll to <strong>Manage</strong> &gt; <strong>Manufacturers/Calibers</strong></li>
+                        <li>Swipe left on an entry to delete it</li>
+                    </ul>
+                    <p><em>Note: You must change or delete all associated inventory items associated with a Manufacturer
+                            or Caliber before you can delete it.</em></p>
+                </details>
+
+                <details>
+                    <summary>How do I track approval length?</summary>
+                    <ul>
+                        <li>In your inventory, navigate and tap on your firearm.</li>
+                        <li>Under the calendar section, set the Submitted and (if applicable) approved dates.</li>
+                        <li>This will track the number of days between Form 1/4 submission and approval.</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>How do I add a tax stamp to my item?</summary>
+                    <ul>
+                        <li>Tap <strong>Inventory</strong> &gt; <strong>Your firearm</strong> &gt; <strong>Tax
+                                Stamp</strong></li>
+                        <li>Click “Upload Tax Stamp”</li>
+                        <li>Upload the PDF attached to your approval email or from eForms</li>
+                        <li>Be sure to set your approval and acquired date(s) when applicable</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>How do I remove an item from inventory?</summary>
+                    <ul>
+                        <li>You have two options: Delete or Dispose</li>
+                        <li>If deleting, swipe left on your item in the inventory view and click “Delete”</li>
+                        <li>If you sold the item, choose Dispose. You will need to set and acquisition date before the
+                            disposition field becomes available.</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>How do I view/restore a sold/disposed item?</summary>
+                    <ul>
+                        <li>Tap <strong>Inventory</strong> &gt; <strong>…</strong> &gt; <strong>View Disposed
+                                Items</strong></li>
+                        <li>Unset the “Disposed” field to return it to your inventory</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>How do I change an item owner?</summary>
+                    <ul>
+                        <li>Tap <strong>Inventory</strong> &gt; <strong>Your firearm</strong></li>
+                        <li>Scroll down to “Ownership”</li>
+                        <li>Set the Ownership Type (Trust/Individual)</li>
+                        <li>Set the Owner</li>
+                    </ul>
+                </details>
+
+            </div>
+
+            <div class="faq-group">
+                <h3>Docs & Resources</h3>
+
+                <details>
+                    <summary>What types of documents can I generate?</summary>
+                    <p>Currently, you can generate 24-month trust extension letters and SBR/SBS configuration changes.
+                        More document types will be included in future releases.</p>
+                </details>
+
+                <details>
+                    <summary>How do I view generated documents?</summary>
+                    <p>Tap <strong>Resources</strong> &gt; <strong>Generated Documents</strong></p>
+                </details>
+
+                <details>
+                    <summary>Why is my NFA item or trust not showing up?</summary>
+                    <p>Make sure your trust is created in the Trusts view or NFA item is created in the Inventory view.
+                        You will also need to ensure your NFA item is associated with the proper owner (for example, you
+                        cannot generate a trust-related document for an item owned by an individual). Be sure your
+                        firearm is set to be acquired in the inventory field.</p>
+                </details>
+
+                <details>
+                    <summary>How do I add a new FFL?</summary>
+                    <ul>
+                        <li>Tap <strong>Resources</strong> &gt; <strong>My FFLs</strong> &gt; <strong>+</strong> (add)
+                        </li>
+                        <li>You can now enter your FFL details, select the services your FFL offers, and what detail is
+                            displayed on the contact card (Phone number, email, etc)</li>
+                        <li>Be sure to link your FFL’s license and SOT, if applicable, to easily send their license to
+                            any seller.</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>How do I set my preferred FFL?</summary>
+                    <ul>
+                        <li>Tap <strong>Resources</strong> &gt; <strong>My FFLs</strong> &gt; <strong>Your preferred
+                                FFL’s Name</strong></li>
+                        <li>Scroll to the bottom and click “Set as Favorite”</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>How do I add a new CLEO?</summary>
+                    <ul>
+                        <li>Tap <strong>Resources</strong> &gt; <strong>My CLEOs</strong> &gt; <strong>+</strong> (add)
+                        </li>
+                        <li>Enter your CLEO’s notification details</li>
+                    </ul>
+                </details>
+            </div>
 
         </div>
 
