@@ -1,5 +1,6 @@
 Brand,Street Address,City,State,Zip,ManuCode
 Accuracy International,410 Shannon Park Dr,Fredericksburg,VA,22408,AIL
+CAT (Combat Application Technologies),206 FLETCHER RD,ARTESIA,NM,88210,CAT
 CZ (Ceska Zbrojovka),PO Box 171073,Kansas City,KS,66117,CZ
 AAC (Advanced Armament Corporation),"5021 Bradford Drive NW, Suite A",Huntsville,AL,35805,AAP
 Aero Precision,2338 Holgate Street,Tacoma,WA,98402,AP2
@@ -15,11 +16,14 @@ Canik,309 SANSBURYS WAY SUITE 100,West Palm Beach,FL,33411,SSM
 Century International Arms,430 S Congress Ave. Ste 1,Delray Beach,FL,33445,CAI
 Colt,545 New Park Avenue,West Hartford,CT,06110,CLT
 Daniel Defense,101 Warfighter Way,Black Creek,GA,31308,P43
+Dead Air,2206 W 3000 S UNIT B,HEBER CITY,UT,84032,D77
 Desert Tech,1995 W Alexander St,West Valley City,UT,84119,DT2
 DPMS (Panther Arms),3850 Fernandina Road,Columbia,SC,29210,DPM
 FN,797 Old Clemson Road,Columbia,SC,29229,FNU
+Geissele Automatics,800 North Wales Road,North Wales,PA,19454,1GA
 Glock,6000 Highlands Parkway SE,Smyrna,GA,30082,GLO
 H&K (Heckler & Koch),5675 Transport Boulevard,Columbus,GA,31907,HEC
+Huxwrx,280West Central Ave,Millcreek,UT,84107,HXL
 IWI (Israel Weapon Industries),1485 Mountain Road,Andersonville,TN,37705,IWI
 Kalashnikov USA,3901 NE 12th Ave #400,Pompano Beach,FL,33064,KUS
 Kel-Tec,1505 Cox Rd,Cocoa,FL,32926,KEL
@@ -31,27 +35,23 @@ Noveske Rifleworks,594 NE E St,Grants Pass,OR,97526,NRL
 Otter Creek Labs,1545 Hawk Creek Rd,London,KY,40741,OC9
 PSA (Palmetto State Armory),3760 Fernandina Rd,Columbia,SC,29210,PAA
 POF (Patriot Ordnance Factory),1492 W. Victory Lane,Phoenix,AZ,85027,U70
+Q,110 Venture Dr,Dover,NH,03820,QLC
 Remington,870 Remington Dr,Madison,NC,27025,REM
 Ruger,1 Lacey Place,Southport,CT,06890,SR
+Rugged,1 Tungsten Trl,Travelers Rest,SC,29690,RGG
 S&W (Smith & Wesson),2100 Roosevelt Avenue,Springfield,MA,01104,SW
 Sig Sauer,72 Pease Boulevard,Newington,NH,03801,SIG
+SilencerCo,5511 S 6055 W,West Valley City,UT,84118,V85
 Springfield,650 Weber Dr,Geneseo,IL,61254,SFT
 Staccato,1223 CR 233,Florence,TX,76527,SQD
 Stag Arms,7052 Commerce Circle,Cheyenne,WY,82007,NBC
 Steyr,2530 Morgan Road,Bessemer,AL,35022,YWA
 Surefire,18300 Mount Baldy Circle,Fountain Valley,CA,92708,X19
+TBAC (Thunder Beast Arms Corporation),8214 HUTCHINS DR,CHEYENNE,WY,82007,TBC
 Tisas,114 Sherlake Ln #18,Knoxville,TN,37922,G0J
 Walther,7700 Chad Colley Blvd,Fort Smith,AR,72916,WAL
 Wilson Combat,2452 CR 719.,Berryville,AR,72616,WLC
 Winchester,3005 Arnold Tenbrook Road,Arnold,MO,63010,WIN
+YHM (Yankee Hill Machine Co),412 Main St,Easthampton,MA,01027,YHM
 Zastava,"55 Bradrock Dr, Ste B",Des Plaines,IL,60018,ZAS
 Zenith,0517 Critzers Shop Road,Afton,VA,22920,ZF1
-SilencerCo,5511 S 6055 W,West Valley City,UT,84118,V85
-Huxwrx,280West Central Ave,Millcreek,UT,84107,HXL
-Dead Air,2206 W 3000 S UNIT B,HEBER CITY,UT,84032,D77
-Q,110 Venture Dr,Dover,NH,03820,QLC
-Rugged,1 Tungsten Trl,Travelers Rest,SC,29690,RGG
-YHM (Yankee Hill Machine Co),412 Main St,Easthampton,MA,01027,YHM
-TBAC (Thunder Beast Arms Corporation),8214 HUTCHINS DR,CHEYENNE,WY,82007,TBC
-CAT (Combat Application Technologies),206 FLETCHER RD,ARTESIA,NM,88210,CAT
-Geissele Automatics,800 North Wales Road,North Wales,PA,19454,1GA
