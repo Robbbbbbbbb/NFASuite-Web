@@ -166,15 +166,12 @@
                                 EFT</strong></li>
                         <li>You can now choose one of three ways to capture your FD-258 card:
                             <ul>
-                                <li><strong>Select photo:</strong> Import an existing photo or scan of your EFT</li>
-                                <li><strong>Select PDF:</strong> Import an existing PDF scan of your EFT</li>
+                                <li><strong>Select PDF:</strong> Import an existing PDF scan of your EFT. <strong>Note:</strong> if using your EFT with ATF eForms, you must use this option with a 600 DPI+ scan.</li>
+                                <li><strong>Select photo:</strong> Import an existing photo or scan of your EFT.</li>
                                 <li><strong>Take Photo:</strong> This will allow you to take a photo of your FD258 and
-                                    line up the prints using a built-in grid.</li>
+                                    line up the prints using a built-in grid. Note: A camera-based photo of your EFT may not be compatible with EBTS-specifications and should not be used with eForms. We recommend using a high-resolution (600 DPI+ scan) instead.</li>
                             </ul>
                         </li>
-                        <li><strong>Crop and Rotate:</strong> You can now adjust the rotation and brightness/contrast of
-                            your prints. Aim to get as much white space as possible (turn up the brightness) and
-                            contrast without making the prints appear blotchy</li>
                         <li><strong>Segment prints:</strong> Drag the box over the corresponding finger in each print.
                             Rolled prints are preferred, but flat prints will be accepted.</li>
                         <li><strong>Demographics:</strong> You can now either import your user details from an existing
@@ -183,12 +180,12 @@
                             already created into the Demographics section. Please note that if a user already has an EFT
                             attached to their profile, you will not be able to select that user until you remove the EFT
                             from the profile (User &gt; Select the user &gt; EFT &gt; Remove)
+                            <br>Note: You can also scan the back of a drivers license with a PDF417 barcode.
                         </li>
                         <li><strong>Export EFT:</strong> Once everything is filled out and reviewed, you can save and
                             export the EFT.</li>
                     </ol>
-                    <p><em>Note: This function does not currently support annotating missing fingers, however, you can
-                            place the box on a field where the finger is missing even if it is blank.</em></p>
+                    <p><em>Note: This function does not currently support annotating missing fingers.</em></p>
                 </details>
 
                 <details>
@@ -370,8 +367,8 @@
 
                 <details>
                     <summary>What devices are supported for live scanning?</summary>
-                    <p>The SecuGen Unity 20 BLE is supported natively. For the Integrated Biometrics Kojak scanner, you must use a standalone Portaprint unit. No other devices are
-                        supported at this time.</p>
+                    <p>The Integrated Biometrics Kojak scanner is supported when connected to a linux computer (like a Raspberry Pi) running Portaprint. No other devices are
+                        officially supported at this time.</p>
                 </details>
 
                 <details>
